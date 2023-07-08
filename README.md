@@ -1,4 +1,4 @@
-# news_gem
+# Swoofy Music app
 
 A new Flutter project.
 
