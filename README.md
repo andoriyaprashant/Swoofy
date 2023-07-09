@@ -24,7 +24,7 @@ To run the Swoofy app locally, you need to have Flutter and Dart installed on yo
 2. Navigate to the project's root directory:
 
 ```bash
-cd swoofy
+cd Swoofy
 ```
 
 3. Install dependencies:
