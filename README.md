@@ -1,16 +1,62 @@
-# Swoofy Music app
+# Swoofy Music App
 
-A new Flutter project.
+Swoofy is a Flutter music app that allows users to access and play songs stored on their phones. With a user-friendly interface and intuitive controls, Swoofy provides an enjoyable music listening experience.
+
+## Features
+
+- Access and play songs stored on your phone's storage.
+- View a list of songs with details such as title, artist, and album artwork.
+- Navigate through songs using playback controls (play, pause, previous, next).
+- Seek to specific positions in a song using a slider.
+- Display the current position and duration of the playing song.
+- Responsive and visually appealing UI design.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the Swoofy app locally, you need to have Flutter and Dart installed on your machine. Follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ ```bash
+ git clone https://github.com/andoriyaprashant/swoofy.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the project's root directory:
+
+```bash
+cd swoofy
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+``` 
+
+4. Check for Flutter setup and connected devices:
+
+```bash
+flutter doctor
+```
+
+5. Run the app:
+
+```bash
+flutter run
+```
+
+## Dependencies
+
+Swoofy uses the following dependencies:
+
+- [Get](https://pub.dev/packages/get): A state management solution for Flutter.
+- [OnAudioQuery](https://pub.dev/packages/on_audio_query): A package to query audio files on the device.
+- [just_audio](https://pub.dev/packages/just_audio): A powerful audio player package for Flutter.
+- [permission_handler](https://pub.dev/packages/permission_handler): A package to handle permission requests.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. Make sure to follow the [Contributing guidelines]([CONTRIBUTING.md]).
+
+
+
+
