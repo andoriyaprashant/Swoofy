@@ -54,6 +54,16 @@ Swoofy uses the following dependencies:
 - [just_audio](https://pub.dev/packages/just_audio): A powerful audio player package for Flutter.
 - [permission_handler](https://pub.dev/packages/permission_handler): A package to handle permission requests.
 
+## hacktoberfest
+
+We're actively participating in Hacktoberfest and would love to see your contributions. To get started:
+
+1. Make sure your GitHub account is registered for Hacktoberfest.
+2. Find an issue that you'd like to work on from our [Issues][(https://github.com/andoriyaprashant/Swoofy/issues)] section.
+3. Fork this repository and create a new branch for your work.
+4. Make your changes, following our guidelines in the Contributing Guidelines.
+5. Submit a pull request with a clear description of your changes.
+
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. Make sure to follow the [Contributing guidelines]([CONTRIBUTING.md]).
 
