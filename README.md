@@ -65,7 +65,7 @@ We're actively participating in Hacktoberfest and would love to see your contrib
 5. Submit a pull request with a clear description of your changes.
 
 ## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. Make sure to follow the [Contributing guidelines]([CONTRIBUTING.md]).
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. Make sure to follow the [Contributing guidelines](CONTRIBUTING.md).
 
 
 
