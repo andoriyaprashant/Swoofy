@@ -1,0 +1,35 @@
+name: CI
+on:
+  push
+
+jobs:
+  ci:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps: 
+    - name: Checkout
+      id: checkout
+      uses: actions/checkout@v4
+    
+    - name: Setup Flutter and Dart
+      id: setup
+      run: |
+        sudo snap install flutter --classic
+        sudo apt-get update -y
+        sudo apt-get install apt-transport-https
+        wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/dart.gpg
+        echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
+        sudo apt-get update -y 
+        sudo apt-get install dart -y
+
+    - name: Install Dependencies
+      id: dependencies
+      run: |
+        flutter pub get
+
+    - name: Web CI Build
+      id: web-build
+      run: |
+        flutter build web
+
+
